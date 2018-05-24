@@ -1,0 +1,11 @@
+{
+  "name": "nrwl-extend",
+  "version": "0.1",
+  "extends": "@nrwl/schematics",
+  "schematics": {
+    "application": {
+      "description": "A schematic that extends nrwl application schematic",
+      "factory": "./application/index"
+    }
+  }
+}
